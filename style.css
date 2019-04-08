@@ -1,0 +1,99 @@
+body
+{	
+ font-family: flood-std, sans-serif;
+	font-style: oblique;
+	font-weight: 400;
+	width: 500px;
+	height: 1000px;
+	overflow: hidden;
+	background: linear-gradient(#0F2027, #F0F5F9, #F0F5F9);
+	padding-top: 3%;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+#title {
+  color: #3B8686;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+.first-word {
+  color: #3B8686;
+}
+.second-word {
+  color: #79BD9A;
+}
+.third-word {
+  color: #A8DBA8;
+}
+#two, #five, #eight {
+  border-left: 5px solid #3B8686;
+  border-right: 5px solid #3B8686;
+}
+#four, #five, #six {
+  border-bottom: 5px solid #3B8686;
+  border-top: 5px solid #3B8686;
+}
+td {
+
+	border:  2px solid #333;
+	height:  130px;
+	width:  130px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-size:  70px;
+	cursor: pointer;
+}
+
+table {
+
+	border-collapse:collapse;
+}
+
+td {
+  
+	background-color:  antiquewhite;
+	border: 14px  solid  cadetblue;
+	font-size:80px;
+	color:#ffffff;
+	margin-left: 100px;
+	left: 50%;
+	border-radius: 30px 30px 30px 30px;
+}	
+td:hover {
+  background: #ff7b29;
+}
+button {
+
+ 
+  border: 2px solid #3B8686;
+  border-radius: 5px;
+  color: #3B8686;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 20px;
+  width: 100px;
+}
+.endgame {
+  display: none;
+  width: 200px;
+  top: 120px;
+  background: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, .8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: blak;
+  font-size: 2em;
+  
+}
